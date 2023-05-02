@@ -6,6 +6,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   testWidgets("Succeeding test example", (WidgetTester tester) async {
+    app.main();
     expect(2 + 2, equals(4));
   });
 }
