@@ -12,6 +12,12 @@ void main() {
 
     expect(find.text('0'), findsOneWidget);
 
+    final Finder fab = find.byTooltip('Increment');
+    await tester.tap(fab);
+    await tester.pumpAndSettle();
+
+    expect(find.text('1'), findsOneWidget);
+
     expect(2 + 2, equals(4));
   });
 }
