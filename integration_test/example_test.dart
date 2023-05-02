@@ -7,6 +7,9 @@ void main() {
 
   testWidgets("Succeeding test example", (WidgetTester tester) async {
     app.main();
+
+    await tester.pumpAndSettle();
+    
     expect(2 + 2, equals(4));
   });
 }
