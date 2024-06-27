@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:camera_avfoundation/camera_avfoundation.dart';
 
 void main() {
   runApp(MyApp());
