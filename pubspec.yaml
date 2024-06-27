@@ -21,7 +21,8 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  camera_avfoundation: ^0.9.16
+  # camera_avfoundation: ^0.9.16
+  camera: ^0.10.5+9
   flutter:
     sdk: flutter
 
